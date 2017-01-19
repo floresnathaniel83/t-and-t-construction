@@ -11,3 +11,46 @@
 .red{
 	background: #FF0000;
 }
+
+/*searchbox*/
+
+.form{
+	padding: 0px 0px 0px 0px;
+}
+
+.form-search-input{
+	width: 0px;
+	height: 55px;
+	border: 0;
+	outline: 0;
+	font-size: 21px;
+	padding: 0px 0px 0px 0px;
+	color: #151515;
+	transition: all 0.5s;
+}
+
+.form-search-submit{
+	display: inline-block;
+	width: 55px;
+	height: 43px;
+	border: 0;
+	outline: 0;
+	background-color: #151515 
+	font-size: 21px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.search-input-open{
+	width: 410px !important;
+	padding: 0px 0px 0px 20px !important;
+	display: initial !important;
+}
+
+/*jumbotron*/
+
+.jumbotron{
+	background: url(http://www.wakikenya.com/wp-content/uploads/2016/09/banner.jpg);
+	background-size: cover;
+}

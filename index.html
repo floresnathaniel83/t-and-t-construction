@@ -14,29 +14,38 @@
 			<div class='navbar navbar-default'>
 				<div class='black container-fluid'>
 					<div class='row'>
-						<div class='col-md-6'>
+						<div class='col-xs-6'>
 							<div class='navbar-header'>
 								<img src="http://tandtconstruction.com/wp-content/themes/tandt/images/logo-tt-construction.png">
 							</div>
 						</div>
-						<div class='col-md-6'>
+						<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+							<span class='sr-only'>toggle navigation</span>
+							<span>Menu</span>
+						</button>
+						<div class='col-xs-6'>
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">REQUEST A QUOTE</a></li>
+								<li><a href="http://tandtconstruction.com/contact/free-estimate/" class="quote">Request a Free Quote!</a></li>
 								<li>713.477.6660</li>
 								<li>
-									<div class="input-group">
-								      <span class="input-group-btn">
-								        <button class="btn btn-default" type="button">Go!</button>
-								      </span>
-								      <input type="text" class="form-control">
-							    	</div>
+									<div class='form'>
+										<form class='form-search ngen-search-form'>
+											<input type="text" name='q' id='search-input' class='form-search-input' placeholder="Search">
+											<span id='search-trigger' class='form-search-submit'>&#x1f50e</span>
+										</form>	
+									</div>
+									
 								</li>	
-								<li><a href="#">SERVICES</a></li>
-			        			<li><a href="#">EQUIPMENT</a></li>
-			        			<li><a href="#">PROJECTS</a></li>
-			        			<li><a href="#">ABOUT T&T</a></li>
-			        			<li><a href="#">CONTACT </a></li>
-			        		</ul>
+							</ul>
+							<div class= 'navbar-collapse collapse'>	
+								<ul class='nav navbar-nav'>
+									<li><a href="http://tandtconstruction.com/services/" tabindex="0">Services</a></li>
+				        			<li><a href="http://tandtconstruction.com/equipment/">Equipment</a></li>
+				        			<li><a href="/projects/site-work/">Projects</a></li>
+				        			<li><a href="http://tandtconstruction.com/about-us/">About T&amp;T</a></li>
+				        			<li><a href="http://tandtconstruction.com/contact/">Contact</a></li>
+				        		</ul>
+				        	</div>	
 			        	</div>	
 					</div>	
 				</div>
@@ -45,8 +54,8 @@
 			
 		<div class='jumbotron'>
 				<div class='container'>
-					<img src="http://tandtconstruction.com/wp-content/themes/tandt/basic/images/st2slide-flyin.png">
-					<a href="http://tandtconstruction.com/services/concrete-repair/">Concrete repair services to get you back on track. »</a>
+					<img src=http://tandtconstruction.com/wp-content/themes/tandt/basic/images/st1slide-flyin.png>
+					<a href="http://tandtconstruction.com/services/site-work/">Start your next project strong with T&amp;T site work. »</a>
 				</div>
 		</div>	
 		
@@ -132,16 +141,10 @@
      			</div>
      		</div>
      	</footer>
-
-
-
-
-
-
-
 		<!-- Latest compiled and minified JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 
 	</body>
 	</html>
