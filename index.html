@@ -2,48 +2,50 @@
 	<html>
 	<head>
 		<title>Concrete Construction You Can Trust | T&T Construction</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+
 	</head>
 	<body>
 		<header>
 			<div class='navbar navbar-default'>
-				<div class='black container-fluid'>
+				<div class='header-container-fluid'>
 					<div class='row'>
-						<div class='col-xs-6'>
+						<div class='col-sm-1'>
 							<div class='navbar-header'>
 								<img src="http://tandtconstruction.com/wp-content/themes/tandt/images/logo-tt-construction.png">
+									<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+										<span class='sr-only'>toggle navigation</span>
+										<span class='icon-bar'></span>
+										<span class='icon-bar'></span>
+										<span class='icon-bar'></span>
+									</button>
 							</div>
 						</div>
-						<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
-							<span class='sr-only'>toggle navigation</span>
-							<span>Menu</span>
-						</button>
-						<div class='col-xs-6'>
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="http://tandtconstruction.com/contact/free-estimate/" class="quote">Request a Free Quote!</a></li>
-								<li>713.477.6660</li>
-								<li>
-									<div class='form'>
-										<form class='form-search ngen-search-form'>
-											<input type="text" name='q' id='search-input' class='form-search-input' placeholder="Search">
-											<span id='search-trigger' class='form-search-submit'>&#x1f50e</span>
-										</form>	
-									</div>
-									
-								</li>	
+					
+						<div class='col-sm-6 col-sm-offset-5'>
+								<a href="http://tandtconstruction.com/contact/free-estimate/" class="quote">REQUEST A FREE QUOTE!</a>
+								<span class='phone'>713.477.6660</span>
+								<div class='form'>
+									<form class='form-search ngen-search-form'>
+										<input type="text" name='q' id='search-input' class='form-search-input' placeholder="search">
+										<span id='search-trigger' class='form-search-submit'>&#x1f50e</span>
+									</form>	
+								</div>			
 							</ul>
 							<div class= 'navbar-collapse collapse'>	
+							<!-- don't know what is going on here menu toggle is not working -->
 								<ul class='nav navbar-nav'>
-									<li><a href="http://tandtconstruction.com/services/" tabindex="0">Services</a></li>
-				        			<li><a href="http://tandtconstruction.com/equipment/">Equipment</a></li>
-				        			<li><a href="/projects/site-work/">Projects</a></li>
-				        			<li><a href="http://tandtconstruction.com/about-us/">About T&amp;T</a></li>
-				        			<li><a href="http://tandtconstruction.com/contact/">Contact</a></li>
+									<li><a href="http://tandtconstruction.com/services/" tabindex="0"><span class='header-tabs'>Services</span></a></li>
+				        			<li><a href="http://tandtconstruction.com/equipment/"><span class='header-tabs'>Equipment</span></a></li>
+				        			<li><a href="/projects/site-work/"><span class='header-tabs'>Projects</span></a></li>
+				        			<li><a href="http://tandtconstruction.com/about-us/"><span class='header-tabs'>About T&amp;T</span></a></li>
+				        			<li><a href="http://tandtconstruction.com/contact/"><span class='header-tabs'>Contact</a></li>
 				        		</ul>
 				        	</div>	
 			        	</div>	
@@ -52,19 +54,21 @@
 			</div>
 		</header>
 			
-		<div class='jumbotron'>
-				<div id='overlay-jumbotron'></div>
-				<div class='container'>
-					<img src=http://tandtconstruction.com/wp-content/themes/tandt/basic/images/st1slide-flyin.png>
-					<a href="http://tandtconstruction.com/services/site-work/">Start your next project strong with T&amp;T site work. »</a>
-					
-				</div>		
+		<div class='jumbotron-container-fluid'>
+			<div class='row'>
+					<div class='col-sm-6'>
+						<img id='jumbotron-img' src=http://tandtconstruction.com/wp-content/themes/tandt/basic/images/st1slide-flyin.png>
+					</div>
+					<div class='col-sm-6'>
+						<a href="http://tandtconstruction.com/services/site-work/" class='jumbotron-link'>Start your next project strong with T&amp;T site work. »</a>
+					</div>
+			</div>		
 		</div>	
 		
-		<div class='yellow container-fluid'>
+		<div class='yellow-container-fluid'>
 			<div class='row'>
 				<div class='col-md-6'>
-					<h1>Where our job ends, your job begins.</h1>
+					<h1>WHERE OUR JOB ENDS, YOURS BEGINS</h1>
 				</div>
 				<div class='col-md-6'>
 					<p>When it comes to concrete and dirt work that drive your projects, there’s no room for shortcuts. Quality, efficiency and workmanship are key to getting your work done and done well. At T&amp;T Construction we value this mindset, working diligently on your concrete construction projects to find solutions, minimize setbacks and stay on schedule — because our job is just the beginning of yours. </p>
@@ -74,35 +78,33 @@
 		</div>
 
 			
-		<div class='black container-fluid'>
-			<span><a href="http://tandtconstruction.com/services/site-work/">Site Work</a></span>
-			<span><a href="http://tandtconstruction.com/services/commercial-concrete-services/">Commercial Concrete</a></span>
-			<span><a href="http://tandtconstruction.com/services/industrial-machine-concrete-pads/">Industrial &amp; Machine Concrete Pads</a></span>
-			<span><a href="http://tandtconstruction.com/services/concrete-building-construction/">Concrete Building Construction</a></span>
-			<span><a href="http://tandtconstruction.com/services/concrete-repair/">Concrete Repair</a></span>
-			<span><a href="http://tandtconstruction.com/services/facility-services/">Facility Services</a></span>
-			<span><a href="http://tandtconstruction.com/services/specialty-projects/">Specialty Projects</a></span>
+		<div class='middle-container-fluid'>
+			<a href="http://tandtconstruction.com/services/site-work/">Site Work</a>
+			<a href="http://tandtconstruction.com/services/commercial-concrete-services/"><span class='middle-page-tabs'>Commercial Concrete</span></a>
+			<a href="http://tandtconstruction.com/services/industrial-machine-concrete-pads/"><span class='middle-page-tabs'>Industrial &amp; Machine Concrete Pads</span></a>
+			<a href="http://tandtconstruction.com/services/concrete-building-construction/"><span class='middle-page-tabs'>Concrete Building Construction</span></a>
+			<a href="http://tandtconstruction.com/services/concrete-repair/"><span class='middle-page-tabs'>Concrete Repair</span></a>
+			<a href="http://tandtconstruction.com/services/facility-services/"><span class='middle-page-tabs'>Facility Services</span></a>
+			<a href="http://tandtconstruction.com/services/specialty-projects/"><span class='middle-page-tabs'>Specialty Projects</span></a>
 		</div>	
      	
-     	<div class='container-fluid'>
+     	<div class='red-container-fluid'>
      		<div  class='row'>
      			<div id='left-red-box' class='col-md-4'>
      				<h2>TAYLOR MADE CONCRETE</h2>
      				<p>T&amp;T’s volumetric mixers are your jobsite solution to quick and fast concrete.</p>
-     				<a href="http://tandtconstruction.com/about-us/equipment/" class="secondary button">Find Out More</a>
+     				<a href="http://tandtconstruction.com/about-us/equipment/" class="secondary button">FIND OUT MORE</a>
      				<div id='red-overlay'></div>
      			</div>
      			<div id='center-red-box' class='col-md-4'>
      				<h2>GET A FREE ESTIMATE ON YOUR NEXT PROJECT!</h2>
-     				<h3>713.477.6660</h3>
-     				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-     				tempor incididunt ut labore et dolore magna aliqua.</p>
-     				<a href="http://tandtconstruction.com/contact/free-estimate/" class="secondary button">Get a Quote</a>
+     				<p>713.477.6660</p>
+     				<a href="http://tandtconstruction.com/contact/free-estimate/" class="secondary button">GET A QUOTE</a>
      				<div id='red-overlay'></div>
      			</div>
      			<div id='right-red-box' class='col-md-4'>
      				<h2>Get More T&amp;T</h2>
-     				<a href="#" class="secondary button" data-open="newsletter-reg" aria-controls="newsletter-reg" aria-haspopup="true" tabindex="0">JOIN OUR EMAIL LIST</a>
+     				<a href="http://tandtconstruction.com/contact/free-estimate/" class="secondary button">JOIN OUR EMAIL LIST</a>
      				<div id='red-overlay'></div>
      			</div>
      		</div>
@@ -111,37 +113,44 @@
      	<footer>
      		<div class='container'>
      			<div class='row'>
-     				<h3>SITEMAP</h3>
-     				<div class='col-md-6'>
+     				<div class='col-sm-6'>	
+     					<h3>SITEMAP</h3>
      					<div class='col-sm-4'>
-     						<li><a href="#">SERVICES</a></li>
-		        			<li><a href="#">EQUIPMENT</a></li>
-		        			<li><a href="#">PROJECTS</a></li>
-		        			<li><a href="#">ABOUT T&T</a></li>
-		        			<li><a href="#">CONTACT</a></li>
+
+	     					<ul>
+	     						<li><a href="http://tandtconstruction.com/services/"><strong>SERVICES</strong></a></li>
+			        			<li><a href="http://tandtconstruction.com/services/site-work/">Site Work</a></li>
+			        			<li><a href="http://tandtconstruction.com/services/commercial-concrete-services/">Commercial Concrete</a></li>
+			        			<li><a href="http://tandtconstruction.com/services/industrial-machine-concrete-pads/">Industrial &amp; Machine Concrete Pads</a></li>
+			        			<li><a href="http://tandtconstruction.com/services/concrete-building-construction/">Concrete Building Construction</a></li>
+			        			<li><a href="http://tandtconstruction.com/services/concrete-repair/">Concrete Repair</a></li>
+			        			<li><a href="http://tandtconstruction.com/services/facility-services/">Facility Services</a></li>
+			        			<li><a href="http://tandtconstruction.com/services/specialty-projects/">Specialty Projects</a></li>
+			        		</ul>
      					</div>
      					<div class='col-sm-4'>
-     						<li><a href="#">SERVICES</a></li>
-		        			<li><a href="#">EQUIPMENT</a></li>
-		        			<li><a href="#">PROJECTS</a></li>
-		        			<li><a href="#">ABOUT T&T</a></li>
-		        			<li><a href="#">CONTACT</a></li>
+     						<ul>
+	     						<li><a href="http://tandtconstruction.com/equipment/"><strong>EQUIPMENT</strong></a></li>
+			        			<li><a href="http://tandtconstruction.com/projects/site-work/"><strong>PROJECTS</strong></a></li>
+			        			<li><a href="http://tandtconstruction.com/about-us/"><strong>ABOUT T&amp;T</strong></a></li>
+			        			<li><a href="http://tandtconstruction.com/about-us/equipment/">Employment</a></li>
+			        			<li><a href="http://tandtconstruction.com/about-us/blog-press/">Blog &amp; Press</a></li>
+		        			</ul>
      					</div>
      					<div class='col-sm-4'>
-     						<li><a href="#">SERVICES</a></li>
-		        			<li><a href="#">EQUIPMENT</a></li>
-		        			<li><a href="#">PROJECTS</a></li>
-		        			<li><a href="#">ABOUT T&T</a></li>
-		        			<li><a href="#">CONTACT</a></li>
-     					</div>	
+     						<ul>
+	     						<li><a href="http://tandtconstruction.com/contact/"><strong>CONTACT</strong></a></li>
+			        			<li><a href="http://tandtconstruction.com/contact/free-estimate/">Free Estimate</a></li>
+		        			</ul>
+     					</div>
      				</div>
-     				<div class='col-md-6'>
+     				<div class='col-sm-6'>
      					<ul>
-     						<li>facebook</li>
-     						<li>facebook</li>
-     						<li>facebook</li>
+     						<a href='#'><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+     						<a href='#'><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+     						<a href='#'><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
      					</ul>
-     					<p><a href="tel:7134776660" rel="nofollow">713.477.6660</a> | 204 Preston Avenue | Pasadena, Texas 77503 | <a href="http://tandtconstruction.com/privacy-policy/">Privacy Policy</a><br> © 2017 T&amp;T Construction. All Rights Reserved. Website by <a href="http://www.designatwork.com" target="_blank">Design At Work</a>.</p>
+     					<p><span>713.477.6660</span> | 204 Preston Avenue | Pasadena, Texas 77503 | <a href="http://tandtconstruction.com/privacy-policy/">Privacy Policy</a><br> © 2017 T&amp;T Construction. All Rights Reserved. Website by <a href="http://www.designatwork.com" target="_blank">Design At Work</a>.</p>
      				</div>
      			</div>
      		</div>

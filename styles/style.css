@@ -1,49 +1,81 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
 img{
 	position: relative;
 	z-index: 10;
+	padding: 7%;
 }
 
 a{
 	position: relative;
-	z-index: 10;	
+	z-index: 10;
+	color: #FFFFFF;
 }
+
 
 h2{
 	position: relative;
-	z-index: 10;	
-	
+	z-index: 8;	
+
 }
 
 p{
 	position: relative;
-	z-index: 10;
+	z-index: 8;
 }
 
-.black{
-	background: #0a0a0a;
-
-}
-
-.yellow{
-	background: #ffda27;
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 
 }
 
-/*searchbox*/
+/*header*/
+
+header .navbar{
+	margin: 0;
+
+}
+
+.header-container-fluid{
+	background: #000;
+	padding: 1%;
+} 
+
+.col-sm-offset-5 .phone{
+	color: #ffda27;
+	font-weight: bolder;
+}
+
+.col-sm-6 .quote{
+  text-decoration: none;
+  color: #ad172b;
+  font-weight: bolder;
+  margin-right: 5%;
+
+}
 
 .form{
 	padding: 0px 0px 0px 0px;
 }
 
 .form-search-input{
-	width: 0px;
-	height: 55px;
+	width: 250px;
+	height: 25px;
 	border: 0;
 	outline: 0;
 	font-size: 21px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 10px;
 	color: #151515;
 	transition: all 0.5s;
+	margin-top: 3%;
 }
 
 .form-search-submit{
@@ -59,32 +91,82 @@ p{
 	text-align: center;
 }
 
-.search-input-open{
-	width: 410px !important;
-	padding: 0px 0px 0px 20px !important;
-	display: initial !important;
+.header-tabs{
+	color: #fff;
+	font-weight: 500;
+}
+
+.header-tabs:hover{
+	color: #ffda27;
 }
 
 /*jumbotron*/
 
-#overlay-jumbotron{
-	background-color: #000;
-    background-size: cover;
-    opacity: .5;
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    bottom: 0px;
-    right: 0px;
-    z-index: 1;
-	
+#jumbotron-img{
+	max-width: 100%;
+
 }
 
-.jumbotron{
+.col-sm-6{
+	margin-top: 3%;
+}
+
+.jumbotron-container-fluid{
 	background: url(http://www.equipmentworld.com/files/2012/11/shutterstock_670442741.jpg);
 	background-size: cover;
-	position: relative;
-	z-index: 5;
+	
+
+}
+
+.jumbotron-container-fluid .jumbotron-link{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+	font-size: x-large;
+	margin-top: 3%;
+
+}
+
+/*yellow container*/
+
+.yellow-container-fluid{
+	padding: 3%;
+	background: #ffda27;
+
+}
+
+.yellow-container-fluid h1{
+	font-weight: bolder;
+}
+
+/*middle-tabs*/
+
+.middle-container-fluid{
+	background: #0a0a0a;
+	padding: 3%;
+
+}
+
+.middle-container-fluid a{
+	color: #ffda27;
+	font-weight: bolder;
+	margin: 1%;
+}
+
+.middle-container-fluid a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*red boxes*/
+.red-container-fluid a{
+	color: #000;
+}
+
+.red-container-fluid a:hover{
+	color: #ffffff;
+	transition: all ease .3s;
+	text-decoration: none;
 
 }
 
@@ -92,38 +174,104 @@ p{
 	height: 270px;
 }
 
+.col-md-4 h2{
+	color: #ffda27;
+	font-weight: bold;
+
+}
+
+.col-md-4 p{
+	color: #ffffff;
+
+}
+
+.col-md-4 a{
+	color:#000;
+    font-weight: 600;
+    padding: 1%;
+    background: #ffda27;
+
+}
+
 #center-red-box{
 	background: url(http://sites.thecityofsanjose.com/san-jose-ca-remodeling-jmm-construction/san-jose-ca-remodeling-jmm-construction.jpg);
 	background-size: cover;
 	position: relative;
-	z-index: 5;
+	z-index: 8;
+	padding: 3%;
 }
 
 #right-red-box{
 	background: url(http://www.webcomknowmore.org/wp-content/uploads/2016/03/construction-services.jpg);
 	background-size: cover;
 	position: relative;
-	z-index: 5;
+	z-index: 8;
+	padding:3%;
 }
 
 #left-red-box{
 	background: url(http://gateleyplc.com/wp-content/uploads/2015/11/gateley-construction-services-300x300.jpg);
 	background-size: cover;
 	position: relative;
-	z-index: 5;
+	z-index: 8;
+	padding:3%;
 }
 
 #red-overlay{
-	background-color: darkred;
+	background-color: #ad172b;
     background-size: cover;
-    opacity: .5;
+    opacity: .8;
     position: absolute;
     width: 100%;
     height: 270px;
     bottom: 0px;
     right: 0px;
-    z-index: 1;
+    z-index: 0;
 
+}
+
+/*footer*/
+
+footer{
+	margin-bottom: 5%;
+	padding: 2%;
+}
+
+footer h3{
+	color: #ad172b;
+}
+
+footer a{
+	color: grey;
+	font-weight: 300;
+
+}
+
+footer a:hover{
+	color: #ad172b;
+	text-decoration: none;
+}
+
+footer span{
+	color: grey;
+	font-weight: 300;
+}
+
+i{
+	color: #000;
+	margin: 1%;	
+}
+
+i:hover{
+	color: #ad172b;
+}
+
+strong{
+	color: #000;
+}
+
+strong:hover{
+	color: #ad172b;
 }
 
 
